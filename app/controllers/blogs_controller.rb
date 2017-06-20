@@ -28,7 +28,7 @@ class BlogsController < ApplicationController
 
     respond_to do |format|
       if @blog.save
-        format.html { redirect_to @blog, notice: 'Your post is now publish' }
+        format.html { redirect_to @blog, notice: 'Your post is now published' }
       else
         format.html { render :new }
       end
