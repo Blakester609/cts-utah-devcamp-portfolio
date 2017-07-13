@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/Blakester609/blake_doty_view_tool
+  revision: 7f0c68b3919b9f2d14088d18b05a981ac8d7ffbb
+  specs:
+    blake_doty_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -183,6 +189,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  blake_doty_view_tool!
   bootstrap (~> 4.0.0.alpha6)
   byebug
   coffee-rails (~> 4.2)
