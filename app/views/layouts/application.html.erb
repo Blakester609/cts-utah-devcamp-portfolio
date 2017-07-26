@@ -17,7 +17,15 @@
       <div class="site-wrapper-inner">
         <div class="cover-container">
           
-          <div id="bkgrnd"></div>
+          <%= video_tag(
+            'Hacker_code_whiteblack_06_Videvo.mov', 
+            id: 'bkgrnd',
+            autoplay: true,
+            loop: true,
+            muted: true,
+            poster: 'programming.jpg'
+            )
+            %>
     
           <%= render "shared/application_nav" %>
           

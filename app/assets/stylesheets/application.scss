@@ -196,7 +196,7 @@ body {
 #bkgrnd {
   position: fixed;
   top: 50%;
-  left: 50%;
+  left: 70%;
   min-width: 100%;
   min-height: 100%;
   width: auto;
@@ -206,6 +206,7 @@ body {
   transform: translateX(-50%) translateY(-50%);
   background: image-url('programming.jpg') no-repeat;
   background-size: cover;
+  filter: blur(2px);
 }
 
 .app-footer {
