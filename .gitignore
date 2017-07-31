@@ -17,3 +17,4 @@
 .byebug_history
 # I don't want to show my secrets file
 /config/secrets.yml
+.env
