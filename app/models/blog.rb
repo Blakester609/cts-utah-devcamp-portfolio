@@ -12,4 +12,8 @@ class Blog < ApplicationRecord
   def self.by_recent
     order('created_at DESC')
   end
+  
+  def self.default_topic
+    includes(:topic).where.not(topic: { id: nil })
+  end
 end
